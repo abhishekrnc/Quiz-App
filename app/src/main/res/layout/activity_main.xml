@@ -1,0 +1,211 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MainActivity">
+
+    <LinearLayout
+        android:id="@+id/quiz_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+>
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.1) Who were the Founders of Google.Inc?"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/question1_co1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Larry Page" />
+
+        <CheckBox
+            android:id="@+id/question1_co2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bill Gates" />
+
+        <CheckBox
+            android:id="@+id/question1_co3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sergey Brin" />
+
+        <CheckBox
+            android:id="@+id/question1_co4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mark Zuckerberg" />
+
+
+
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.2) Who is known as the Father Of Computer?"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question2_c01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Blaise Pascle" />
+
+            <RadioButton
+                android:id="@+id/question2_co2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Charles Babbage" />
+
+            <RadioButton
+                android:id="@+id/question2_co3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Lady Ada Lovelace" />
+
+            <RadioButton
+                android:id="@+id/question2_co4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="John Napier" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.3) What does WWW stand for?"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:labelFor="@+id/question3_answer"/>
+
+        <EditText
+            android:id="@+id/question3_answer"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.4) Which of the following is a search engine?"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question4_co1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chrome" />
+
+            <RadioButton
+                android:id="@+id/question4_co2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Altavista" />
+
+            <RadioButton
+                android:id="@+id/question4_co3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MSN" />
+
+            <RadioButton
+                android:id="@+id/question4_co4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Netscape" />
+        </RadioGroup>
+
+
+
+        <TextView
+            android:id="@+id/question5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.5) Another name for the address of a web page is?"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question5_co1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Its Website" />
+
+            <RadioButton
+                android:id="@+id/question5_co2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Its domain name" />
+
+            <RadioButton
+                android:id="@+id/question5_co3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Its ULR" />
+
+            <RadioButton
+                android:id="@+id/question5_co4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Its URL" />
+        </RadioGroup>
+
+
+
+        <TextView
+            android:id="@+id/question6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.6) Who is the Founder of Instagram?"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:labelFor="@+id/question6_answer"/>
+
+        <EditText
+            android:id="@+id/question6_answer"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+
+        <Button
+            android:id="@+id/submit_answers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Answer"
+            android:onClick="submit_your_answers"/>
+
+    </LinearLayout>
+</ScrollView>
+
